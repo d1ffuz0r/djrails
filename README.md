@@ -1,7 +1,7 @@
 django on rails
 ===============
 
-Skeleton of Django project with included webassets, south, sass, coffeescript and haml. Inspired Ruby on Rails.
+Skeleton of Django project with included webassets, south, clevercss, coffeescript and haml. Inspired Ruby on Rails.
 
 
 # Installation

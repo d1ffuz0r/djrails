@@ -1,0 +1,16 @@
+!!! 5
+%html
+  %head
+    {% load assets %}
+    {% assets "js_all" %}
+    %script{'type': 'text/javascript',
+            'src': '{{ ASSET_URL }}'}
+    {% endassets %}
+    {% assets "css_all" %}
+    %link{'rel': 'stylesheet', 'href': '{{ ASSET_URL }}',
+          'type': 'text/css', 'charset': 'utf-8',
+          'media': 'screen'}
+    {% endassets %}
+  %body
+    %h2
+      It works!

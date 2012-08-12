@@ -1,0 +1,8 @@
+django>=1.4
+djaml
+hamlpy
+pygments
+clevercss
+south
+-e git://github.com/miracle2k/webassets.git#egg=webassets
+-e git://github.com/miracle2k/django-assets.git#egg=django-assets
